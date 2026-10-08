@@ -1,0 +1,16 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,'Noto Sans Devanagari','Noto Sans Gurmukhi',sans-serif;background:#0b1530;color:#e8f0ff}
+.app{display:flex;min-height:100vh}.side{width:230px;background:#0a1226;padding:14px;position:sticky;top:0;height:100vh;overflow:auto}
+.side h2{background:linear-gradient(90deg,#38bdf8,#22d3ee);-webkit-background-clip:text;color:transparent;margin:0 0 12px}
+.side button{display:block;width:100%;text-align:left;background:none;border:0;color:#9fb4d9;padding:9px 10px;border-radius:10px;cursor:pointer;font-size:14px}
+.side button.on,.side button:hover{background:#16315f;color:#fff}.main{flex:1;padding:22px;max-width:1100px}
+.card{background:rgba(255,255,255,.06);border:1px solid rgba(125,190,255,.2);border-radius:16px;padding:16px;margin:10px 0;backdrop-filter:blur(8px)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.btn{background:linear-gradient(90deg,#0ea5e9,#06b6d4);border:0;color:#fff;padding:9px 16px;border-radius:10px;cursor:pointer;margin:3px}
+.btn.g{background:#1e3a6e}.btn.r{background:#9b2c3a}
+input,select{background:#0e1d3d;color:#fff;border:1px solid #2b4c85;border-radius:8px;padding:8px;margin:3px}
+.bar{height:8px;background:#1b2e57;border-radius:6px;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,#22d3ee,#34d399)}
+.tag{display:inline-block;background:#16315f;border-radius:20px;padding:3px 10px;margin:2px;font-size:13px}.ok{color:#34d399}.bad{color:#fb7185}.warn{color:#fbbf24}
+.big{font-size:30px;font-weight:700;color:#22d3ee}.hero{text-align:center;padding:50px 10px}.hero h1{font-size:44px;margin:0}
+.lang{position:fixed;top:10px;right:14px;z-index:9}table{width:100%;border-collapse:collapse}td,th{padding:6px;border-bottom:1px solid #223a6a;text-align:left}
+.msg{background:#10244a;padding:8px 12px;border-radius:12px;margin:6px 0}.me{background:#0e7490;margin-left:20%}
+@media(max-width:700px){.app{flex-direction:column}.side{width:100%;height:auto;position:static}}
